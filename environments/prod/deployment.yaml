@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-deployment # necessary for Kustomize identification
 spec:
-  replicas: 4
+  replicas: 2
   strategy:
     rollingUpdate:
       maxSurge: 1
